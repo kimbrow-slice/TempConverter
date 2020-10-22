@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <!--META DATA TAGS-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Jeff, Jeffery, Kimbrow, JS, JavaScript, Temperature Converter">
+    <meta name="description" content="Lab Assignment for SkilledKC">
+    <!--TITLE-->
+    <title>Temp Converter</title>
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="converter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--NAV-->
+
+    <!--MAIN CONTENT-->
+
+    <h3>Temperature Converter</h3>
+
+    <p>Insert a value for the temperature to be converted below!</p>
+
+    <div>
+        <form>
+            <label>Fahrenheit to:</label>
+            <input id="inputFahrenheit" type="number" placeholder="Welcome" oninput="fahrenheitConverter(this.value)" onchange="fahrenheitConverter(this.value)">
+        </form>
+        <p>Celcius: <span id="outputCelcius"></span></p>
+        <p>Kelvin: <span id="outputKelvin"></span></p>
+    </div>
+
+    <div>
+        <form>
+            <label>Celcius to:</label>
+            <input id="inputCelcius" type="number" placeholder="To My" oninput="celciusConverter(this.value)" onchange="celciusConverter(this.value)">
+        </form>
+        <p>Fahrenheit: <span id="outputFahr"></span></p>
+        <p>Kelvin: <span id="outputKel"></span></p>
+    </div>
+
+    <div>
+        <form>
+            <label>Kelvin to:</label>
+            <input id="inputKelvin" type="number" placeholder="JS Project" oninput="kelvinConverter(this.value)" onchange="kelvinConverter(this.value)">
+        </form>
+        <p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+        <p>Celcius: <span id="outputCel"></span></p>
+    </div>
+
+
+    <!--FOOTER-->
+
+    <!--SCRIPTS-->
+    <script src="converter.js"></script>
+
+</body>
+
+</html>

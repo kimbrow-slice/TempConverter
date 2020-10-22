@@ -1,0 +1,104 @@
+body {
+    background-color: #232223;
+    color: #cff8ff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input {
+    background-color: rgb(66, 66, 66);
+    border: none;
+    color: #b6b6b6;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    outline: none;
+}
+
+input:hover {
+    background-color: rgb(66, 66, 66);
+    border: none;
+    color: #FFDF00;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    outline: none;
+}
+
+#outputCelcius {
+    border: none;
+    color: #FFDF00;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#outputKelvin {
+    border: none;
+    color: #FFDF00;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#outputFahrenheit {
+    border: none;
+    color: #FFDF00;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#outputCel {
+    border: none;
+    color: #FFDF00;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#outputKel {
+    border: none;
+    color: #FFDF00;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#outputFahr {
+    border: none;
+    color: #FFDF00;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
