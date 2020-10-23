@@ -81,7 +81,7 @@ input:hover {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#outputKel {
+#celToKelv {
     border: none;
     color: #FFDF00;
     padding: 5px;
@@ -92,7 +92,7 @@ input:hover {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#outputFahr {
+#celToFahr {
     border: none;
     color: #FFDF00;
     padding: 5px;
